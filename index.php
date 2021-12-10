@@ -18,30 +18,31 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8891f6df96.js" crossorigin="anonymous"></script>
     <title>HomeXpert</title>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="favicon.ico" type="ico">
   </head>
   <body>
       <div class="container-fluid">
-          <div class="row row1 fixed-top" style="background-color: white;">
+          <div class="row row1" style="background-color: white;">
               <div class="col-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html" style="color: #d35400; margin-right: 250px; font-size: 35px; font-weight: bolder;">HomeXpert</a>
+                    <a class="navbar-brand" href="index.php" style="color: #d35400; margin-right: 250px; font-size: 35px; font-weight: bolder;">HomeXpert</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Design
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">Logo Design</a>
+                              <a class="dropdown-item" href="logodesign.php">Logo Design</a>
                             </div>
                           </li>
                           <li class="nav-item dropdown">
@@ -49,7 +50,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                               Video & Audio
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">Video Editing</a>
+                              <a class="dropdown-item" href="videoedit.php">Video Editing</a>
                             </div>
                           </li>
                           <li class="nav-item dropdown">
@@ -82,7 +83,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                   </nav>
               </div>
           </div>
-          <div class="row row2" style="align-items: center;  text-align: center; justify-content: center; height: 700px;">
+          <div class="row row2" style=" text-align: center; justify-content: center; height: 500px; align-items:center;">
             <div class="col-4 align-content-center">
                 <div style="font-size: 50px;">Join the world's work marketplace</div><br>
                 <div style="font-size: 20px;">Find great talent. Build your business. Take your career to the next level.</div><br>
@@ -96,7 +97,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
               <img src="img/1.jpg" class="img-fluid">
             </div>
           </div>
-          <div class="row" style="justify-content: center; height: 600px;">
+          <div class="row" style="justify-content: center;  align-items: center; height: 600px;">
             <div class="col-4">
               <div style="font-size: 40px;">1. Browse</div>
               <div style="padding-left: 30px; font-size: 20px;">
@@ -112,10 +113,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 </div>
             </div>
             <div class="col-4">
-
+              <img src="img/3.png" class="img-fluid">
             </div>
           </div>
-          <div class="row row3" style="justify-content: center; padding-bottom: 50px;">
+          <div class="row row3" style="justify-content: center; padding-bottom: 70px; padding-top: 70px;">
             <div class="col-4">
               <img src="img/2.jpg" class="img-fluid" style="border-radius: 5%;">
             </div>
