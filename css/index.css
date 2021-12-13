@@ -1,0 +1,36 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    background-color: white;
+}
+.navbar-nav{
+    font-size: 22px;
+}
+.row1{
+    border-bottom: 2px solid #fc7930;
+}
+#trusted{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.rounded{
+    border-radius: 20%;
+}
+
+a,a:link,a:visited,a:active{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+.dropdown-menu{
+    background-color: #d35400;
+}
+.rowfooter{
+    color: white;
+}
+#paddedlinks{
+    padding-left: 20px;
+}

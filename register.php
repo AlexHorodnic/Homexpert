@@ -107,6 +107,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
     </style>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.ico" type="ico">
 </head>
 <body>
     <div class="container-fluid">
@@ -198,7 +199,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
               <hr style="border: 1px solid white;">
             </div>
           </div>
-          <div class="row rowfooter" style="background-color: #d35400; height: 40px;">
+          <div class="row rowfooter" style="background-color: #d35400; height: 50px;">
             <div class="col-2">
             </div>
             <div class="col-2">

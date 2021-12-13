@@ -100,6 +100,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
     </style>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.ico" type="ico">
 </head>
 <body>
     <div class="container-fluid">

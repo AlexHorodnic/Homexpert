@@ -19,8 +19,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/8891f6df96.js" crossorigin="anonymous"></script>
-    <title>HomeXpert</title>
-    <link rel="stylesheet" href="index.css">
+    <title>HomeXpert - Join the world's work marketplace</title>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="favicon.ico" type="ico">
   </head>
   <body>
@@ -42,7 +42,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                               Design
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="logodesign.php">Logo Design</a>
+                              <a class="dropdown-item" href="pages/logodesign.php">Logo Design</a>
                             </div>
                           </li>
                           <li class="nav-item dropdown">
@@ -50,7 +50,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                               Video & Audio
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="videoedit.php">Video Editing</a>
+                              <a class="dropdown-item" href="pages/videoedit.php">Video Editing</a>
                             </div>
                           </li>
                           <li class="nav-item dropdown">
@@ -58,7 +58,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                               Development & IT
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">Online Coding Lessons</a>
+                              <a class="dropdown-item" href="pages/coding.php">Online Coding Lessons</a>
                             </div>
                           </li>
                         <li class="nav-item dropdown">
@@ -66,7 +66,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                             Marketing
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Social Media Advertising</a>
+                            <a class="dropdown-item" href="pages/advertising.php">Social Media Advertising</a>
                           </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -74,7 +74,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                               Writing & Translation
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">Book Editing</a>
+                              <a class="dropdown-item" href="pages/bookedit.php">Book Editing</a>
                             </div>
                           </li>
                       </ul>
@@ -83,8 +83,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                   </nav>
               </div>
           </div>
+          <div class="container">
           <div class="row row2" style=" text-align: center; justify-content: center; height: 500px; align-items:center;">
-            <div class="col-4 align-content-center">
+            <div class="col-6 align-content-center">
                 <div style="font-size: 50px;">Join the world's work marketplace</div><br>
                 <div style="font-size: 20px;">Find great talent. Build your business. Take your career to the next level.</div><br>
                 <div style="font-size: 20px; font-weight: bolder; color: #a0ac94;">Trusted by</div>
@@ -93,12 +94,12 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <img src="img/bissell.dcb03c9.svg" id="trusted">
                 <img src="img/godaddy.75298df.svg" id="trusted">
             </div>
-            <div class="col-4 align-content-center">
+            <div class="col-6 align-content-center">
               <img src="img/1.jpg" class="img-fluid">
             </div>
           </div>
-          <div class="row" style="justify-content: center;  align-items: center; height: 600px;">
-            <div class="col-4">
+          <div class="row" style="justify-content: center;  align-items: center; background-color:#ffe9de;">
+            <div class="col-6">
               <div style="font-size: 40px;">1. Browse</div>
               <div style="padding-left: 30px; font-size: 20px;">
                 Find the type of work you need, clearly defined and ready to start.</div>
@@ -112,22 +113,22 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 Receive and review your project. The professional will be paid once you’ve approved it.
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-6">
               <img src="img/3.png" class="img-fluid">
             </div>
           </div>
-          <div class="row row3" style="justify-content: center; padding-bottom: 70px; padding-top: 70px;">
-            <div class="col-4">
+          <div class="row row3" style="justify-content: center;  padding-top: 50px; padding-bottom:50px;">
+            <div class="col-6" style="padding: 0;">
               <img src="img/2.jpg" class="img-fluid" style="border-radius: 5%;">
             </div>
-            <div class="col-4" style="background-color: f39c12; border-radius: 5%; background-image: linear-gradient(#f39c12, #d35400);">
+            <div class="col-6" style="background-color: f39c12; border-radius: 5%; background-image: linear-gradient(#f39c12, #d35400);">
               <div class="row" style="color: white; font-size: 30px; padding-top: 30px; padding-left: 20px;">
                 <div class="col-12" style="background-color: #d35400;">For talent</div>
               </div>
-              <div class="row" style="color: white; font-size: 60px; padding-top: 20px; padding-left: 20px;">
+              <div class="row" style="color: white; font-size: 60px; padding-top: 10px; padding-left: 20px;">
                 <div class="col-12">Find Great <br> Work</div>
               </div>
-              <div class="row" style="color: white; font-size: 20px; padding-top: 20px; padding-left: 20px; height: 150px;">
+              <div class="row" style="color: white; font-size: 20px; padding-top: 20px; padding-left: 20px; height: 100px;">
                 <div class="col-12">Meet clients you’re excited to work with and take your career or business to new heights.</div>
               </div>
               <div class="row">
@@ -146,14 +147,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                   Explore different ways to earn
                 </div>
               </div>
-              <div class="row" style="padding-top: 30px; padding-left: 20px;">
+              <div class="row" style="padding-top: 20px; padding-left: 20px;">
                 <div class="col-12">
                   <button type="button" class="btn btn-outline-light">Find Opportunities</button>
                 </div>
               </div>
             </div>
           </div>
-
+        </div>
           <div class="row rowfooter" style="background-color: #d35400; height: 310px;  justify-content: center; color: white; padding-top: 30px" >
               <div class="col-2">
                 <div>For Clients</div><br>
@@ -201,7 +202,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
               <hr style="border: 1px solid white;">
             </div>
           </div>
-          <div class="row rowfooter" style="background-color: #d35400; height: 40px;">
+          <div class="row rowfooter" style="background-color: #d35400; height: 50px;">
             <div class="col-2">
             </div>
             <div class="col-2">
