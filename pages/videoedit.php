@@ -114,7 +114,7 @@ if($link === false){
                             }
                         ?>
                     </div>
-                    <button type="button" class="btn btn-dark" style="margin-top:20px; border:none;">See More</button>
+                    <button type="button" class="btn btn-dark" style="margin-top:20px; border:none;"><a href="dosien.php">See More</a></button>
                 </div>
                 <div class="col-3" style="border-right: 1px solid #d35400; height: 300px; text-align:center;">
                     <div style=" padding-top:20px;">
@@ -131,7 +131,7 @@ if($link === false){
                             }
                         ?>
                     </div>
-                    <button type="button" class="btn btn-dark" style="margin-top:20px; border:none;">See More</button>
+                    <button type="button" class="btn btn-dark" style="margin-top:20px; border:none;"><a href="ruben.php">See More</a></button>
                 </div>
                 <div class="col-3" style="border-right: 1px solid #d35400; height: 300px; text-align:center;">
                     <div style=" padding-top:20px;">
@@ -148,7 +148,7 @@ if($link === false){
                             }
                         ?>
                     </div>
-                    <button type="button" class="btn btn-dark" style="margin-top:20px; border:none;">See More</button>
+                    <button type="button" class="btn btn-dark" style="margin-top:20px; border:none;"><a href="margaian.php">See More</a></button>
                 </div>
                 <div class="col-3" style="height: 300px; text-align:center;">
                     <div style=" padding-top:20px;">
@@ -165,7 +165,7 @@ if($link === false){
                             }
                         ?>
                     </div>
-                    <button type="button" class="btn btn-dark" style="margin-top:20px; border:none;">See More</button>
+                    <button type="button" class="btn btn-dark" style="margin-top:20px; border:none;"><a href="gregory.php">See More</a></button>
                 </div>
             </div>
             <!-- SHOW DATABASE POST -->
